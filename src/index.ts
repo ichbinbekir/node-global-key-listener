@@ -1,4 +1,4 @@
-import os from "os";
+import os from "node:os";
 import {MacKeyServer} from "./ts/MacKeyServer";
 import {WinKeyServer} from "./ts/WinKeyServer";
 import {X11KeyServer} from "./ts/X11KeyServer";

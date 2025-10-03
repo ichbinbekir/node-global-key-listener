@@ -139,7 +139,9 @@ export const X11GlobalKeyLookup: IGlobalKeyLookup = {
     127: { _nameRaw: "KEY_COMPOSE", name: "COMPOSE", standardName: "" },
 
     // Mouse button codes are artificially offset by 0xFFFF0000 in `X11KeyServer`.
-    0xFFFF0001:{_nameRaw: "1" , name: "Button1" , standardName: "MOUSE LEFT"},
-    0xFFFF0002:{_nameRaw: "2" , name: "Button2" , standardName: "MOUSE MIDDLE"},
-    0xFFFF0003:{_nameRaw: "3" , name: "Button3" , standardName: "MOUSE RIGHT"},
+    0xFFFF0001: { _nameRaw: "1", name: "Button1", standardName: "MOUSE LEFT" },
+    0xFFFF0002: { _nameRaw: "2", name: "Button2", standardName: "MOUSE MIDDLE" },
+    0xFFFF0003: { _nameRaw: "3", name: "Button3", standardName: "MOUSE RIGHT" },
+    0xFFFF0008: { _nameRaw: "8", name: "Button8", standardName: "MOUSE X1" },
+    0xFFFF0009: { _nameRaw: "9", name: "Button9", standardName: "MOUSE X2" },
 };
